@@ -13,8 +13,6 @@ async function copy() {
   }
 
   if (source === destination) {
-    console.log('Source and destination paths are the same');
-
     return;
   }
 
